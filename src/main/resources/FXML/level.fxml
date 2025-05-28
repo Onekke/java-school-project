@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<Pane fx:id="pane" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.levels.level1.LevelOneController">
+    <Pane fx:id="background">
+        <ImageView fx:id="sky_horizon" fitWidth="1230.0" pickOnBounds="true" preserveRatio="true" x="-7.0" y="-67.0">
+            <Image url="@../game_assets/parallax_background_layers/sky_horizon_1.1.png" />
+        </ImageView>
+        <ImageView fx:id="field_far_0" fitWidth="1230.0" pickOnBounds="true" preserveRatio="true" y="245.0">
+            <Image url="@../game_assets/parallax_background_layers/field_far_1.0.png" />
+        </ImageView>
+        <ImageView fx:id="field_far_1" fitWidth="1230.0" pickOnBounds="true" preserveRatio="true" x="1230.0" y="242.0">
+            <Image url="@../game_assets/parallax_background_layers/field_far_1.0.png" />
+        </ImageView>
+        <ImageView fx:id="clouds_back_1" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true" y="140.0">
+            <Image url="@../game_assets/parallax_background_layers/clouds_back_1.1.png" />
+        </ImageView>
+        <ImageView fx:id="clouds_back_2" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true" x="1230.0" y="140.0">
+            <Image url="@../game_assets/parallax_background_layers/clouds_back_2.1.png" />
+        </ImageView>
+        <ImageView fx:id="clouds_back_3" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true" x="2460.0" y="140.0">
+            <Image url="@../game_assets/parallax_background_layers/clouds_back_3.1.png" />
+        </ImageView>
+        <ImageView fx:id="clouds_back_4" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true" x="3690.0" y="140.0">
+            <Image url="@../game_assets/parallax_background_layers/clouds_back_4.1.png" />
+        </ImageView>
+        <ImageView fx:id="clouds_back_5" fitWidth="1200.0" pickOnBounds="true" preserveRatio="true" x="4920.0" y="140.0">
+            <Image url="@../game_assets/parallax_background_layers/clouds_back_5.1.png" />
+        </ImageView>
+        <ImageView fx:id="clouds_front_1" fitWidth="1230.0" pickOnBounds="true" preserveRatio="true" y="40.0">
+            <Image url="@../game_assets/parallax_background_layers/clouds_front_1.1.png" />
+        </ImageView>
+        <ImageView fx:id="clouds_front_2" fitWidth="1230.0" pickOnBounds="true" preserveRatio="true" x="1230.0" y="40.0">
+            <Image url="@../game_assets/parallax_background_layers/clouds_front_2.1.png" />
+        </ImageView>
+        <ImageView fx:id="clouds_front_3" fitWidth="1230.0" pickOnBounds="true" preserveRatio="true" x="2460.0" y="40.0">
+            <Image url="@../game_assets/parallax_background_layers/clouds_front_3.1.png" />
+        </ImageView>
+        <ImageView fx:id="clouds_front_4" fitWidth="1230.0" pickOnBounds="true" preserveRatio="true" x="3690.0" y="40.0">
+            <Image url="@../game_assets/parallax_background_layers/clouds_front_4.1.png" />
+        </ImageView>
+        <ImageView fx:id="clouds_front_5" fitWidth="1230.0" pickOnBounds="true" preserveRatio="true" x="4920.0" y="40.0">
+            <Image url="@../game_assets/parallax_background_layers/clouds_front_5.1.png" />
+        </ImageView>
+        <ImageView fx:id="field_0" fitWidth="1030.0" pickOnBounds="true" preserveRatio="true" y="358.0">
+            <Image url="@../game_assets/parallax_background_layers/field_1.3.1_0.png" />
+        </ImageView>
+        <ImageView fx:id="field_1" fitWidth="1030.0" pickOnBounds="true" preserveRatio="true" x="1030.0" y="358.0">
+            <Image url="@../game_assets/parallax_background_layers/field_1.3.1_1.png" />
+        </ImageView>
+        <ImageView fx:id="field_2" fitWidth="1030.0" pickOnBounds="true" preserveRatio="true" x="2060.0" y="358.0">
+            <Image url="@../game_assets/parallax_background_layers/field_1.3.1_2.png" />
+        </ImageView>
+        <ImageView fx:id="field_3" fitWidth="1030.0" pickOnBounds="true" preserveRatio="true" x="3089.0" y="358.0">
+            <Image url="@../game_assets/parallax_background_layers/field_1.3.1_3.png" />
+        </ImageView>
+        <ImageView fx:id="grass_back_1_0" fitWidth="1030.0" pickOnBounds="true" preserveRatio="true" y="360.0">
+            <Image url="@../game_assets/parallax_background_layers/field_1.4_0.png" />
+        </ImageView>
+        <ImageView fx:id="grass_back_2_0" fitWidth="1030.0" pickOnBounds="true" preserveRatio="true" x="1030.0" y="361.0">
+            <Image url="@../game_assets/parallax_background_layers/field_1.4_1.png" />
+        </ImageView>
+        <ImageView fx:id="grass_back_1_1" fitWidth="1030.0" pickOnBounds="true" preserveRatio="true" x="2060.0" y="360.0">
+            <Image url="@../game_assets/parallax_background_layers/field_1.4_2.png" />
+        </ImageView>
+        <ImageView fx:id="grass_back_2_1" fitWidth="1030.0" pickOnBounds="true" preserveRatio="true" x="3090.0" y="361.0">
+            <Image url="@../game_assets/parallax_background_layers/field_1.4_3.png" />
+        </ImageView>
+        <ImageView fx:id="ground_0" fitWidth="1230.0" pickOnBounds="true" preserveRatio="true" y="503.0">
+            <Image url="@../game_assets/sprites/background/ground_2.1.png" />
+        </ImageView>
+        <ImageView fx:id="ground_1" fitWidth="1230.0" pickOnBounds="true" preserveRatio="true" x="1229.0" y="503.0">
+            <Image url="@../game_assets/sprites/background/ground_2.1.png" />
+        </ImageView>
+    </Pane>
+
+    <Group fx:id="entityRoot" />
+
+    <Pane fx:id="foreground">
+    <ImageView fx:id="grass_front_1_0" fitWidth="1030.0" pickOnBounds="true" preserveRatio="true" y="470.0">
+        <Image url="@../game_assets/parallax_background_layers/field_1.4_0.png" />
+    </ImageView>
+    <ImageView fx:id="grass_front_2_0" fitWidth="1030.0" pickOnBounds="true" preserveRatio="true" x="1030.0" y="471.0">
+        <Image url="@../game_assets/parallax_background_layers/field_1.4_1.png" />
+    </ImageView>
+    <ImageView fx:id="grass_front_1_1" fitWidth="1030.0" pickOnBounds="true" preserveRatio="true" x="2060.0" y="470.0">
+        <Image url="@../game_assets/parallax_background_layers/field_1.4_2.png" />
+    </ImageView>
+    <ImageView fx:id="grass_front_2_1" fitWidth="1030.0" pickOnBounds="true" preserveRatio="true" x="3090.0" y="471.0">
+        <Image url="@../game_assets/parallax_background_layers/field_1.4_3.png" />
+    </ImageView>
+   
+       <VBox layoutX="14.0" layoutY="8.0" prefHeight="58.0" prefWidth="459.0" spacing="5">
+           <Text fx:id="distanceText" fill="WHITE" fontSmoothingType="LCD" text="Distance" wrappingWidth="461.193359375">
+            <font>
+               <Font name="Ink Free" size="30.0" />
+            </font>
+         </Text>
+           <Text fx:id="scoreText" fill="WHITE" fontSmoothingType="LCD" text="Score" wrappingWidth="238.396484375">
+            <font>
+               <Font name="Ink Free" size="30.0" />
+            </font>
+         </Text>
+       </VBox>
+    </Pane>
+
+   <Pane fx:id="pauseMenu" disable="true" prefHeight="600.0" prefWidth="1200.0" visible="true">
+       <VBox layoutX="500.0" layoutY="245.0" prefHeight="168.0" prefWidth="200.0" spacing="30" visible="true">
+           <Button alignment="CENTER" onAction="#resumeGame" prefHeight="60" prefWidth="400" text="Resume">
+            <font>
+               <Font name="Ink Free" size="30.0" />
+            </font></Button>
+           <Button alignment="CENTER" onAction="#backToMenu" prefHeight="60" prefWidth="400" text="Main menu">
+            <font>
+               <Font name="Ink Free" size="30.0" />
+            </font></Button>
+       </VBox>
+   </Pane>
+
+    <Pane fx:id="gameOverMenu" disable="true" prefHeight="600.0" prefWidth="1200.0" visible="true">
+      <TextFlow layoutX="348.0" layoutY="124.0" prefHeight="83.0" prefWidth="504.0" textAlignment="CENTER" visible="true">
+         <children>
+            <Text fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="GAME OVER ! " wrappingWidth="418.63201904296875">
+               <font>
+                  <Font name="Ink Free" size="64.0" />
+               </font>
+            </Text>
+         </children>
+      </TextFlow>
+        <VBox layoutX="496.0" layoutY="216.0" prefHeight="168.0" prefWidth="207.0" spacing="30" visible="true">
+            <Button alignment="CENTER" onAction="#restartGame" prefHeight="60" prefWidth="400" text="Restart">
+            <font>
+               <Font name="Ink Free" size="30.0" />
+            </font></Button>
+            <Button alignment="CENTER" onAction="#backToMenu" prefHeight="60" prefWidth="400" text="Main menu">
+            <font>
+               <Font name="Ink Free" size="30.0" />
+            </font></Button>
+        </VBox>
+    </Pane>
+    
+</Pane>

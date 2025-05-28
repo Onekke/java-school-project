@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"controllers.leaderboard"},{"l":"controllers.levels"},{"l":"controllers.levels.level1"},{"l":"controllers.menu"},{"l":"entity"},{"l":"entity.characters.hero"},{"l":"entity.characters.npc"},{"l":"handlers"},{"l":"level"},{"l":"level.path"},{"l":"main"}]

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.menu.MenuController">
+   <children>
+       <ImageView fitWidth="1230.0" pickOnBounds="true" preserveRatio="true" x="-7.0" y="-67.0">
+           <Image url="@../game_assets/parallax_background_layers/sky_horizon_1.1.png" />
+       </ImageView>
+       <ImageView fitWidth="1230.0" pickOnBounds="true" preserveRatio="true" y="245.0">
+           <Image url="@../game_assets/parallax_background_layers/field_far_1.0.png" />
+       </ImageView>
+       <ImageView fitWidth="1200.0" pickOnBounds="true" preserveRatio="true" y="140.0">
+           <Image url="@../game_assets/parallax_background_layers/clouds_back_1.1.png" />
+       </ImageView>
+       <ImageView fitWidth="1230.0" pickOnBounds="true" preserveRatio="true" y="40.0">
+           <Image url="@../game_assets/parallax_background_layers/clouds_front_1.1.png" />
+       </ImageView>
+       <ImageView fitWidth="1030.0" pickOnBounds="true" preserveRatio="true" y="358.0">
+           <Image url="@../game_assets/parallax_background_layers/field_1.3.1_0.png" />
+       </ImageView>
+       <ImageView fitWidth="1030.0" pickOnBounds="true" preserveRatio="true" x="1030.0" y="358.0">
+           <Image url="@../game_assets/parallax_background_layers/field_1.3.1_1.png" />
+       </ImageView>
+       <ImageView fitWidth="1030.0" pickOnBounds="true" preserveRatio="true" y="360.0">
+           <Image url="@../game_assets/parallax_background_layers/field_1.4_0.png" />
+       </ImageView>
+       <ImageView fitWidth="1030.0" pickOnBounds="true" preserveRatio="true" x="1030.0" y="361.0">
+           <Image url="@../game_assets/parallax_background_layers/field_1.4_1.png" />
+       </ImageView>
+       <ImageView fitWidth="1230.0" pickOnBounds="true" preserveRatio="true" y="503.0">
+           <Image url="@../game_assets/sprites/background/ground_2.1.png" />
+       </ImageView>
+       <ImageView fitWidth="1030.0" pickOnBounds="true" preserveRatio="true" y="470.0">
+           <Image url="@../game_assets/parallax_background_layers/field_1.4_0.png" />
+       </ImageView>
+       <ImageView fitWidth="1030.0" pickOnBounds="true" preserveRatio="true" x="1030.0" y="471.0">
+           <Image url="@../game_assets/parallax_background_layers/field_1.4_1.png" />
+       </ImageView>
+       <VBox layoutX="452.0" layoutY="210.0" prefHeight="200.0" prefWidth="297.0" spacing="30">
+           <Button alignment="CENTER" onAction="#setGame" prefHeight="60" prefWidth="400" text="New Game" textAlignment="CENTER" GridPane.rowIndex="0">
+            <font>
+               <Font name="Ink Free" size="24.0" />
+            </font></Button>
+           <Button alignment="CENTER" onAction="#setLeaderboard" prefHeight="60" prefWidth="400" text="Leaderboards" GridPane.rowIndex="1">
+            <font>
+               <Font name="Ink Free" size="24.0" />
+            </font></Button>
+           <Button alignment="CENTER" onAction="#shutdown" prefHeight="60" prefWidth="400" text="Exit" GridPane.rowIndex="2">
+            <font>
+               <Font name="Ink Free" size="24.0" />
+            </font></Button>
+       </VBox>
+   </children>
+</Pane>

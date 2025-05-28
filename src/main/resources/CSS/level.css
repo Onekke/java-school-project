@@ -1,0 +1,5 @@
+.root {
+    -fx-background-image: url('/images/landscape.jpg');
+    -fx-background-position: center;
+    -fx-background-size: cover, auto;
+}
